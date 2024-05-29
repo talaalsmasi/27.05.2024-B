@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ec8c0ecbd.js" crossorigin="anonymous"></script>
+    <title>Exercise3</title>
+    <style>
+        .p{
+            display: grid;
+            grid-template-rows:83% 15% ;
+            width: 100%;
+            height: 95vh;
+            gap: 2vh;
+            background-color: #F1F1F1;
+        }
+        .p1{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .background1{
+            background-image: url(z.jpg);background-size: cover;background-repeat: no-repeat;padding-left: 10%;padding-top: 5%;
+        }
+        .background2{
+            background-color: #41BAE7;color: white;
+        }
+        .background3{
+            background-color:#18B264 ;color: white;
+        }
+        .p2{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr) ;
+            gap: 1vh;
+        }
+        .box{
+            background-color: white;display: grid;grid-template-columns: 1fr 3fr;
+        }
+        .box{
+            align-items: center;text-align: center;font-weight: bold;
+        }
+        .icon{
+           background-color:  #F5F5F5;padding: 3vh;margin-left: 1vh;
+        }
+        .background3 p , .background2 p {
+            font-size: 18px;margin-left: 3vh;
+        }
+        h2{
+            margin-left: 3vh;
+        }
+          
+        
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class="p1">
+            <div class="background1" style="grid-column: 1/3;grid-row: 1/3;">
+                <p style="color: #FF7800;font-weight: bold;font-size: 20px;margin: 1vh;">Offers & Services</p>
+                <p style="color: #FF7800;font-size: 60px;font-weight: bold;margin: 1vh;">Offers and </p>
+                <p style="color: #FF7800;font-size: 60px;font-weight: bold;margin: 1vh;">Services</p>
+                <p style="color: white;font-size: 45px;font-weight: bold;margin: 1vh;">Stay connected to </p>
+                <p style="color: white;font-size: 45px;font-weight: bold;margin: 1vh;">people in your life</p>
+                <p style="color: white;font-size: 20px;">Best 4G+ and unlimited Internet</p>
+                <p style="color: white;font-size: 20px;">bundles and features with Orange </p>
+                <p style="color: white;font-size: 20px;">Mobile Lines</p>
+             </div>
+            <div><img src="https://th.bing.com/th/id/OIP.aIvCF8iYe0U4wEaVMB3T_gAAAA?pid=ImgDet&w=192&h=128&c=7&dpr=1.3" alt="" width="100%" height="100%"></div>
+            <div class="background2">
+                <h2>Orange Exstra</h2>
+                <p>Enjoy the ultimate experience of lifestyle & leisure with your Orange internet subscription </p>
+                <p style="margin-top:13vh;">___</p>
+                <p style="font-weight: bold;">Explore More</p>
+            </div>
+            <div class="background3">
+                <h2>Smart Life </h2>
+                <p>Wide selection of smart life devices to make </p>
+                <p>your life easier from Orange</p>
+                <p style="margin-top:13vh;" >___</p>
+                <p style="font-weight: bold;">Explore More</p>
+            </div>
+            <div><img src="IMG_8465.jpg" alt="" width="100%" height="100%"></div>
+        </div>
+        <div class="p2">
+            <div class="box" style="border-bottom:solid 0.5vh #FF7800;background-color: #FF7800;">
+                <div style="background-color: FE9233;border: solid 1px #FFC818;;padding: 3vh;margin-left: 1vh;"><i class="fa-solid fa-mobile" style="color: #ffffff;"></i></div>
+                <div style="color: white;">Mobile offers</div>
+            </div>
+            <div class="box" style="border-bottom:solid 0.5vh #4FBF88;">
+                <div class="icon"><i class="fa-solid fa-earth-americas" style="color: #101010;"></i></div>
+                <div>Internet Offers</div>
+            </div>
+            <div class="box" style="border-bottom: solid 0.5vh #4FB7DD;">
+                <div class="icon"><i class="fa-solid fa-headphones" style="color: #101010;"></i></div>
+                <div>Devices</div></div>
+            <div class="box" style="border-bottom: solid 0.5vh #A784D8;">
+                <div class="icon"><i class="fa-solid fa-plane" style="color: #101010;"></i></div>
+                <div>International & Roaming</div>
+            </div>
+            <div class="box" style="border-bottom: solid 0.5vh #F8B8E3;">
+                <div class="icon"><i class="fa-solid fa-phone" style="color: #101010;"></i></div>
+                <div>Fixed Lines</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
